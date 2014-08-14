@@ -1,0 +1,7 @@
+name = GSB Feature Topic Teaser FPP
+core = 7.x
+package = GSB
+version = 7.x-1.0
+project = gsb_feature_topic_teaser_fpp
+features[features_api][] = api:2
+
