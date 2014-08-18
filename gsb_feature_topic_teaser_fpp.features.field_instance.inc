@@ -122,7 +122,7 @@ function gsb_feature_topic_teaser_fpp_field_default_field_instances() {
     'settings' => array(
       'custom_add_another' => '',
       'custom_remove' => '',
-      'use_hierarchical_select_lite' => 1,
+      'use_hierarchical_select_lite' => 0,
       'user_register_form' => FALSE,
     ),
     'widget' => array(
