@@ -1,0 +1,14 @@
+<?php
+/**
+ * @file
+ * gsb_feature_topic_teaser_fpp.features.inc
+ */
+
+/**
+ * Implements hook_ctools_plugin_api().
+ */
+function gsb_feature_topic_teaser_fpp_ctools_plugin_api($module = NULL, $api = NULL) {
+  if ($module == "ds" && $api == "ds") {
+    return array("version" => "1");
+  }
+}

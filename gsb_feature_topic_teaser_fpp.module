@@ -1,8 +1,10 @@
 <?php
 /**
  * @file
- * Drupal needs this blank file.
+ * Code for the GSB Feature Topic Teaser FPP feature.
  */
+
+include_once 'gsb_feature_topic_teaser_fpp.features.inc';
 
  /**
  * Implements hook_entity_info_alter().
