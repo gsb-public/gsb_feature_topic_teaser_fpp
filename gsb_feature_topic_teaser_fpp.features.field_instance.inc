@@ -10,7 +10,8 @@
 function gsb_feature_topic_teaser_fpp_field_default_field_instances() {
   $field_instances = array();
 
-  // Exported field_instance: 'fieldable_panels_pane-topic_teaser-field_description'
+  // Exported field_instance:
+  // 'fieldable_panels_pane-topic_teaser-field_description'.
   $field_instances['fieldable_panels_pane-topic_teaser-field_description'] = array(
     'bundle' => 'topic_teaser',
     'custom_add_another' => '',
@@ -94,7 +95,7 @@ function gsb_feature_topic_teaser_fpp_field_default_field_instances() {
     'workbench_access_field' => 0,
   );
 
-  // Exported field_instance: 'fieldable_panels_pane-topic_teaser-field_topic'
+  // Exported field_instance: 'fieldable_panels_pane-topic_teaser-field_topic'.
   $field_instances['fieldable_panels_pane-topic_teaser-field_topic'] = array(
     'bundle' => 'topic_teaser',
     'custom_add_another' => '',
@@ -105,10 +106,11 @@ function gsb_feature_topic_teaser_fpp_field_default_field_instances() {
     'display' => array(
       'default' => array(
         'label' => 'hidden',
-        'module' => 'entityreference',
+        'module' => 'gsb_feature_existing_node_list_fpp',
         'settings' => array(
           'conditions' => array(),
           'links' => 0,
+          'use_content_language' => TRUE,
           'view_mode' => 'insight_topics_action',
         ),
         'type' => 'entityreference_entity_view',
